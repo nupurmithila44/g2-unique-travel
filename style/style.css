@@ -1,37 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
-body{
+
+body {
     font-family: 'Mulish', sans-serif;
 
     font-family: 'Poppins', sans-serif;
 
     font-family: 'Work Sans', sans-serif;
 }
- /* start nav section  */
- .header-section{
+
+/* start nav section  */
+.header-section {
     max-width: 1150px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
- .nav-container{
+}
+
+.nav-container {
     min-height: 30px;
     width: 50%;
     display: flex;
- }
- .colr{
+}
+
+.colr {
     color: #FF5400;
 
- }
+}
 
- .items-container{
+.items-container {
     width: 50%;
     display: flex;
     justify-content: space-around;
-    
- }
- .items-container a{
+
+}
+
+.items-container a {
     text-decoration: none;
     color: #424247;
- }
- /* end nav section  */
+}
+
+/* end nav section  */
+/* start header section  */
+.explore-section {
+    max-width: 1150px;
+    margin: 0 auto;
+    border: 1px solid saddlebrown;
+    min-height: 400px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-container h2 {
+    color: #FFF;
+    font-size: 54px;
+}
+
+.explore-container p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.input-container .select-box {
+    width: 100px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+.input-container .primary-btn {
+    width: 100px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+
+
+
+/* end header section  */
