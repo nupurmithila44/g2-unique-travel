@@ -7,4 +7,15 @@
        gap: 10px;
         
      }
+     .explore-section {
+     flex-direction: column;
+    }
+    .input-container .select-box {
+       display: flex;
+    
+    }
+    .popular-tour{ 
+       flex-direction: column;
+       margin-left: 100px;
+    }
 }

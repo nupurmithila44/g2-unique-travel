@@ -45,9 +45,9 @@ body {
 .explore-section {
     max-width: 1150px;
     margin: 0 auto;
-    border: 1px solid saddlebrown;
     min-height: 400px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,9 +79,36 @@ body {
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
-
 }
 
-
-
 /* end header section  */
+/* start popular tours */
+.popular-tour{
+    max-width: 1150px;
+    margin: 100px auto;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-container{
+width: 50%;
+}
+.text-container p, ul, p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.primary-button{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: white;
+}
+.tours-img-container{
+ width: 50%;
+}
+.tours-img-container img{
+    width: 100%;
+}
+/* end popular tour */
