@@ -351,4 +351,33 @@ bottom: 20%;
 left: 60%;
 
 }
+
+/* start footer  */
+.footer-section{
+    max-width: 1150px;
+    margin: 100px auto; 
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.reserved{
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+ gap: 30px;
+}
 /* end newsletter */
