@@ -83,57 +83,61 @@ body {
 
 /* end header section  */
 /* start popular tours */
-.popular-tour{
+.popular-tour {
     max-width: 1150px;
     margin: 100px auto;
     min-height: 500px;
     display: flex;
     justify-content: space-between;
 }
-.text-container{
-width: 50%;
+
+.text-container {
+    width: 50%;
 }
-.text-container p, ul, p{
+
+.text-container p,
+ul,
+p {
     color: rgba(19, 19, 24, 0.70);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
-.primary-button{
+
+.primary-button {
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: white;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
 }
-.tours-img-container{
- width: 50%;
+
+.tours-img-container {
+    width: 50%;
 }
 
 /* end popular tour */
 /* start your destination */
-.your-destination{
+.your-destination {
     max-width: 1150px;
     margin: 0 auto;
     min-height: 1000px;
 }
-.text-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+
+.text-container {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
-.text-container p{
-    
-}
-.row{
+
+.row {
     max-width: 1150px;
     height: 300px;
     display: flex;
     gap: 20px;
     color: white;
 }
-.madives{
+
+.madives {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -141,9 +145,10 @@ color: white;
     background-image: url(../Images/Rectangle\ 5.png);
     border-radius: 16px;
     background-repeat: no-repeat;
-    
+
 }
-.indonesia{
+
+.indonesia {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -153,15 +158,17 @@ color: white;
     background-repeat: no-repeat;
 
 }
-.row1{
+
+.row1 {
     max-width: 1150px;
     height: 300px;
     display: flex;
     justify-content: space-between;
-    gap: 10px; 
+    gap: 10px;
     color: white;
 }
-.srilanka{
+
+.srilanka {
     width: 30%;
     display: flex;
     justify-content: center;
@@ -170,7 +177,8 @@ color: white;
     border-radius: 16px;
     background-repeat: no-repeat;
 }
-.North-america{
+
+.North-america {
     width: 40%;
     display: flex;
     justify-content: center;
@@ -179,42 +187,111 @@ color: white;
     border-radius: 16px;
     background-repeat: no-repeat;
 }
-.kashmir{
+
+.kashmir {
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../Images/Rectangle\ 9.png);
     background-repeat: no-repeat;
-    border-radius: 16px; 
+    border-radius: 16px;
     background-repeat: no-repeat;
 }
-.row2{
+
+.row2 {
     max-width: 1150px;
     height: 300px;
     display: flex;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 20px;
     color: white;
 }
-.Bangladesh{
+
+.Bangladesh {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../Images/Rectangle\ 11.png);
-    border-radius: 16px; 
+    border-radius: 16px;
     background-repeat: no-repeat;
 }
-.Bandarban{
+
+.Bandarban {
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../Images/Rectangle\ 10.png);
-    border-radius: 16px; 
+    border-radius: 16px;
     background-repeat: no-repeat;
 }
 
 
 /* end your destination */
+/* start why choose us  */
+.why-chooseus {
+    max-width: 1150px;
+    margin: 100px auto;
+    min-height: 900px;
+
+}
+
+.choose-container {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  
+}
+
+.hotel-heading{
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.hotel-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-solid {
+    font-size: 50px;
+    color: #FF5400;
+}
+
+.hotel-container h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-container p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.service-container{
+    width: 100%;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.best-price-container{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* end choose us  */
