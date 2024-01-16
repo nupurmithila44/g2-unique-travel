@@ -233,7 +233,7 @@ p {
 /* start why choose us  */
 .why-chooseus {
     max-width: 1150px;
-    margin: 100px auto;
+    margin: 50px auto;
     min-height: 900px;
 
 }
@@ -295,3 +295,60 @@ p {
 
 
 /* end choose us  */
+/* start newsletter */
+.newsletter{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.newsletter-container{
+    width: 45%;
+    height: 422px;
+   
+    border: 1px solid orangered;
+    border-radius: 5px;
+  
+}
+.newsletter-container h1{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin-left: 15px;
+}
+.newsletter-container p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+margin-left: 15px;
+}
+.newsletter-container input{
+    width: 350px;
+    height: 52px;
+    margin-left: 20px;
+border-radius: 8px;
+background: rgba
+}
+.primary-btn{
+    border-radius: 8px;
+background: #FF5400;
+}
+
+.newsletter-img-content{
+    width: 100%;
+    position: relative;
+}
+
+.parsent{
+    width: 180px;
+height: 120px;
+background-color: #FF5400;
+color: white;
+font-size: 20px;
+border-radius: 10px;
+position:absolute ;
+bottom: 20%;
+left: 60%;
+
+}
+/* end newsletter */
