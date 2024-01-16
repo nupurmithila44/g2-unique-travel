@@ -114,18 +114,107 @@ color: white;
 .your-destination{
     max-width: 1150px;
     margin: 0 auto;
-    min-height: 800px;
-    border: 1px solid salmon;
+    min-height: 1000px;
 }
 .text-container{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-   
-
+}
+.text-container p{
     
+}
+.row{
+    max-width: 1150px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.madives{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 5.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    
+}
+.indonesia{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 8.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
 
 }
+.row1{
+    max-width: 1150px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    color: white;
+}
+.srilanka{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 6.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+.North-america{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 7.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+.kashmir{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-radius: 16px; 
+    background-repeat: no-repeat;
+}
+.row2{
+    max-width: 1150px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    color: white;
+}
+.Bangladesh{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 11.png);
+    border-radius: 16px; 
+    background-repeat: no-repeat;
+}
+.Bandarban{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/Rectangle\ 10.png);
+    border-radius: 16px; 
+    background-repeat: no-repeat;
+}
+
+
 /* end your destination */
